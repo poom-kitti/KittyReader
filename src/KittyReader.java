@@ -15,6 +15,7 @@ public class KittyReader {
 		this(BUFFER_DEFAULT_SIZE);
 	}
 	
+	//Constructor to set buffer size
 	public KittyReader(int bufSize) {
 		input = System.in;
 		buffer = new byte[bufSize];
